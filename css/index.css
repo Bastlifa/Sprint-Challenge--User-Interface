@@ -71,8 +71,13 @@ header nav
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin: 20px 0px;;
+    margin: 20px 40px 40px 0px;
     font-size: 14px;
+}
+
+header nav:last-child
+{
+    /* padding-right: 40px; */
 }
 
 header nav a
@@ -193,7 +198,6 @@ footer nav a {
 {
     display: flex;
     flex-flow: column wrap;
-    
     height: 950px;
 }
 
@@ -231,6 +235,44 @@ footer nav a {
 {
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    
+    margin: 20px;   
 }
+
+.contact-cards
+{
+    display: flex;
+    flex-flow: column wrap;
+    height: 950px;
+}
+
+.contactCard
+{
+    display: block;
+    width: 350px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contactPersImg
+{
+    width: 350px;
+}
+
+.contactButtons
+{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+.contactButtonImg
+{
+    /* width:15%; */
+    margin-right: 15px;
+}
+
+#sandraPhone { display: none; }
+#johnPhone { display: none; }
+#amyPhone { display: none; }
+#derekPhone { display: none; }
+

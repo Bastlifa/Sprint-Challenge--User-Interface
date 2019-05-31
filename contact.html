@@ -2,19 +2,19 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
-  <title>Sprint Challenge - About</title>
+<title>Sprint Challenge - About</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+<link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
     <div class="container contact-page">
     
-      <header>
+    <header>
         <nav>
             <img class = "navLogo" src="img/lambda-black.png" alt="Lambda Logo">
             <a href="index.html">Home</a>
@@ -23,19 +23,71 @@
             <a href="#">Blog</a>
             <a href="contact.html">Contacts</a>
         </nav>
-      </header>
+    </header>
 
-      <img class="contactJumboImg" src="img/jumbo-contact.jpg" alt="picture illustrating contact options">
-      
-      <section class="contact-top-cont">
+    <img class="contactJumboImg" src="img/jumbo-contact.jpg" alt="picture illustrating contact options">
+    
+    <section class="contact-top-cont">
         <h2>Contact</h2>
         <p>You can contact our helpful personnel iterative approaches to corporate strategy
-             foster collaborative thinking to further the overall value proposition. 
-             Organically grow the holistic world view of disruptive innovation via workplace 
-             diversity and empowerment.</p>
-      </section>
+            foster collaborative thinking to further the overall value proposition. 
+            Organically grow the holistic world view of disruptive innovation via workplace 
+            diversity and empowerment.</p>
+    </section>
 
-      <hr class="dashed-hr">
+    <hr class="dashed-hr">
 
+    <section class="contact-cards">
+        <script>
+            function displayPhone(name)
+            {
+                document.getElementById(name + "Phone").style = "display: inline";
+            }
+        </script>
+        <div class="contactCard">
+            <img class="contactPersImg" src="img/Sandra.jpg" alt="strategy">
+            <h2>Sandra</h2>
+            <p>Sandra is the d dui id tortor tincidunt efficitur. Proin sed quam 
+                sed tellus vestibulum ultrices quis in nunc.</p>
+            <div class="contactButtons">
+                <a href='mailto:sandrafakename@example.com'><img class="contactButtonImg" src="img/Mail.png" alt="mail icon"></a>
+                <img onclick="displayPhone('sandra')" class="contactButtonImg" src="img/Phone.png" alt="phone icon">
+                <p id="sandraPhone">(555)555-5555</p>
+            </div>
+        </div>
+        <div class="contactCard">
+            <img class="contactPersImg" src="img/Derek.jpg" alt="strategy">
+            <h2>Derek</h2>
+            <p>Derek is the d dui id tortor tincidunt efficitur. Proin sed quam 
+                sed tellus vestibulum ultrices quis in nunc.</p>
+            <div class="contactButtons">
+                <a href='mailto:derekfakename@example.com'><img class="contactButtonImg" src="img/Mail.png" alt="mail icon"></a>
+                <img onclick="displayPhone('derek')" class="contactButtonImg" src="img/Phone.png" alt="phone icon">
+                <p id="derekPhone">(555)555-5555</p>
+            </div>
+        </div>
+        <div class="contactCard">
+            <img class="contactPersImg" src="img/John.jpg" alt="strategy">
+            <h2>John</h2>
+            <p>John is the d dui id tortor tincidunt efficitur. Proin sed quam 
+                sed tellus vestibulum ultrices quis in nunc.</p>
+            <div class="contactButtons">
+                <a href='mailto:johnfakename@example.com'><img class="contactButtonImg" src="img/Mail.png" alt="mail icon"></a>
+                <img onclick="displayPhone('john')" class="contactButtonImg" src="img/Phone.png" alt="phone icon">
+                <p id="johnPhone">(555)555-5555</p>
+            </div>
+        </div>
+        <div class="contactCard">
+            <img class="contactPersImg" src="img/amy.jpg" alt="strategy">
+            <h2>Sandra</h2>
+            <p>Amy is the d dui id tortor tincidunt efficitur. Proin sed quam 
+                sed tellus vestibulum ultrices quis in nunc.</p>
+            <div class="contactButtons">
+                <a href='mailto:amyfakename@example.com'><img class="contactButtonImg" src="img/Mail.png" alt="mail icon"></a>
+                <img onclick="displayPhone('amy')" class="contactButtonImg" src="img/Phone.png" alt="phone icon">
+                <p id="amyPhone">(555)555-5555</p>
+            </div>
+        </div>
+    </section>
     </div>
 </body>
