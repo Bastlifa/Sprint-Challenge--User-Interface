@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    Semantic HTML adds contects to areas of the web page to explain the layout. It also helps with screen readers
+    Semantic HTML adds context to areas of the web page to explain the layout. It also helps with screen readers
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
