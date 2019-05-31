@@ -218,3 +218,19 @@ footer nav a {
 {
     margin: 0px 20px 20px 20px;
 }
+
+.contactJumboImg
+{
+    width: 800px;
+    height: 153px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px dashed black; */
+}
+
+.contact-top-cont
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
